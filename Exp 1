@@ -158,9 +158,8 @@ Some More Useful Commands
 	4 )whoami                 ----      displays the current logged in user
 
 Getting HELP
-************
-
-	1 )man <command name>         ====>     find out what the command does
+***********	
+        1 )man <command name>         ====>     find out what the command does
 	2 )man -f <command name>      ====>     one line summary of what the
 												command does
 	3 )man -k <keyword>           ====>     search for a command with keyword
@@ -194,4 +193,20 @@ Executing Files
 System Shutdown Commands
 ************************
 
-	
+1 ) 	halt                   ----      Brings the system down immediately
+	2 )	init 0                 ----      Powers off the system using predefined scripts to synchronize and clean 										up the system prior to shutting down
+	3 )	init 6                 ----      Reboots the system by shutting it down completely and then restarting it
+	4 )	poweroff               ----      Shuts down the system by powering off
+	5 )	reboot                 ----      Reboots the system
+	6 )	shutdown               ----      Shuts down the system
+
+Ip Commands	
+************
+	1 ) ip addr show               		    ====>      show ip address of a system
+	2 ) ip addr add 192.168.50.5 dev eth1       ====>	   assign IP Address to a specific interface
+	3 ) ip addr del 192.168.50.5/24 dev eth1    ====>      remove an assigned IP address from the given 																interface 
+	4 )# ip route show 		            ====>      check the route table information
+
+Result
+******
+	Concepts to linux command has been understood clearly .	
